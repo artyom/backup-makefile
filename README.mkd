@@ -1,0 +1,9 @@
+backup makefile
+===============
+
+I use this Makefile for about a year for backing up my homedir to external usb
+drive weekly. It creates separate folder for each date's backup, like
+`backup-YYYY-MM-DD`, hardlinking unchanged files from previous copy, thus only
+changed files use extra space on each run.
+
+Feel free to use/modify it. rsync 3 is suggested.
